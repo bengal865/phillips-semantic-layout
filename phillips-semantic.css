@@ -1,0 +1,41 @@
+/* Phillips: Semantic Elements Project */
+/* 07 JUN 2021 */
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header, nav, main, article, aside, footer{
+    border: 3px solid rgb(6, 116, 241);
+    margin: 12px;
+    padding: 10px;
+}
+
+img{
+    float: right;
+    width: 350px;
+}
+
+article{
+    float: left;
+    width: 65%;
+}
+
+aside{
+    float: right;
+    width: 25%;
+}
+
+main{
+    overflow: hidden;
+}
+
+li {
+    margin-bottom: 12px;
+    list-style: square;
+}
+
+dt {
+    margin-top: 16px; /* More margin above the term */
+    margin-bottom: 8px; /* Smaller margin below the term */
+}
